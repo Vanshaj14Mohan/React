@@ -31,6 +31,7 @@ return(
 );
 }
 
+//what prop looks like
 // const props = {
 //   name: "Vanshaj",
 //   age: 22,
