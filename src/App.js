@@ -10,6 +10,7 @@ import './App.css';
 //   );
 // }
 
+
 function App() {
 //   const name = <h1>Vanshaj</h1>
 //   const age = <h2>21</h2>
@@ -21,22 +22,29 @@ function App() {
 //   {email}
 // </div>
 //   );
-    return( <div className="App">
-    <User/>
-    <User/>  
-     </div>
-  );
+return(
+  <div className="App">
+    <User name="Vanshaj" age={21} email="Abc@gmail.com"/>
+    <User name="John" age={22} email="xyz@gmail.com"/>
+    <User name="Arthur" age={20} email="acxy@gmail.com"/>
+  </div>
+);
 }
 
-const User = () => {
-  return (
-  <div>
-    <h1>Vanshaj</h1>
-    <h2>22</h2>
-    <h2>Abc@gmail.com</h2>
-  </div>
-  );
-};
+// const props = {
+//   name: "Vanshaj",
+//   age: 22,
+//   email: "Abc@gmail.com"
+// }
 
+const User = (props) =>{
+  return (
+    <div>
+      <h1>{props.name}</h1>
+      <h2>{props.age}</h2>
+      <h2>{props.email}</h2>
+    </div>
+  );
+}
 
 export default App;
