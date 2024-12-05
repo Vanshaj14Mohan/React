@@ -38,6 +38,7 @@ return(
 //   email: "Abc@gmail.com"
 // }
 
+//using props to print multiple entries
 const User = (props) =>{
   return (
     <div>
