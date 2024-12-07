@@ -1,3 +1,4 @@
+//Our first task using props
 import '../Topic1.css';
 
 function Topic1(){
