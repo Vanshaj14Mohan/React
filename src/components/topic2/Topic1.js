@@ -4,7 +4,7 @@ import '../Topic1.css';
 function Topic1(){
   return (
     <div className ="App">
-      <Job salary={10000} position="Senior SDE" company="Google"/>
+      <Job salary={10000} position="Data SDE" company="Google"/>
       <Job salary={20000} position="Junior SDE" company="Amazon"/>
       <Job salary={30000} position="Project Head" company="Rupay"/>
     </div>
