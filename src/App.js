@@ -50,9 +50,10 @@ import './App.css';
 //   );
 // }
 
+//homework problem
 function App(){
   return (
-    <div className ="App">
+    <div className ="App"> 
       <Job salary={10000} position="Senior SDE" company="Google"/>
       <Job salary={20000} position="Junior SDE" company="Amazon"/>
       <Job salary={30000} position="Project Head" company="Rupay"/>
